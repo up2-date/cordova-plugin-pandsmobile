@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-plugin-pandsmobile"
+    version="0.1.0" >
+    <name>PandSMobile</name>
+    <description>Settings for PandSMobile</description>
+    <license>MIT</license>
+    <keywords>cordova</keywords>
+    <repo>https://github.com/up2-date/cordova-plugin-pandsmobile</repo>
+    
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+    
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="PandSMobile">
+                <param name="android-package" value="de.pus.cordova.plugin.PandSMobile" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+        <source-file src="src/android/PandSMobile.java" target-dir="src/de/pus/cordova/plugin" />
+    </platform>
+</plugin>
