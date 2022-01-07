@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-pandsmobile",
+  "version": "0.1.0",
+  "description": "Settings for PandSMobile",
+  "cordova": {
+    "id": "cordova-plugin-pandsmobile",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/up2-date/cordova-plugin-pandsmobile.git"
+  },
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "up2-date",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/up2-date/cordova-plugin-pandsmobile/issues"
+  },
+  "homepage": "https://github.com/up2-date/cordova-plugin-pandsmobile#readme"
+}
